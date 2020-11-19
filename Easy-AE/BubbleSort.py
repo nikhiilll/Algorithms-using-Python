@@ -17,7 +17,7 @@ def bubbleSort2(array):
 
     while not isSorted:
         isSorted = True
-        for i in range(len(array) - 1):
+        for i in range(len(array) - 1 - counter):
             if array[i] > array[i + 1]:
                 array[i], array[i + 1] = array[i + 1], array[i]
                 isSorted = False
