@@ -10,3 +10,4 @@ def minNumberOfCoinsForChange(n, denoms):
 
     return ways[n] if ways[n] != float("inf") else -1
 
+
