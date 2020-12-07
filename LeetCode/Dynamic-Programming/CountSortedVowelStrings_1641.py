@@ -7,3 +7,4 @@ def countSortedVowelStrings(n):
             dp[i][k] = dp[i][k - 1] + dp[i - 1][k]
     
     return dp[n][5]
+    
